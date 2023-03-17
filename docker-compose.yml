@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   ce0:
-    image: dockerconanexiles-theetails:1.0.1
+    image: spnko/docker-conanexiles:latest
     restart: always
     environment:
       - "CONANEXILES_ServerSettings_ServerSettings_AdminPassword=pwd"
